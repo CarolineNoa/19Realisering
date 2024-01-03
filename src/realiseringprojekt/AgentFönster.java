@@ -192,14 +192,13 @@ private InfDB idb;
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
-        AlienInformationDatum datum = new AlienInformationDatum();
+        AliensInformationDatum datum = new AliensInformationDatum(idb);
         datum.setVisible(true);
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-        ÄndraAliensInformation ändraInfo = new ÄndraAliensInformation();
-        ändraInfo.setVisible(true);
+        
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
