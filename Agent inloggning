@@ -1,0 +1,12 @@
+private void bLoggainActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        if(jEpost.getText().equals("")) {
+          JOptionPane.showMessageDialog(null, "Fyll i din epost");
+            
+        }
+        else if(jLösenord.getText().equals("")) {
+            JOptionPane.showMessageDialog(null, "Fyll i ditt lösenord");
+           
+        } 
+        else {JOptionPane.showMessageDialog(null, "Fel eopst eller löenord", "Meddelande", JOptionPane.ERROR_MESSAGE); }
+        
+    }   
